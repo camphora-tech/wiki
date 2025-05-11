@@ -17,7 +17,7 @@ export default defineAppConfig({
     siteName: 'CamphoraTech Wiki'
   },
   header: {
-    title: '',
+    title: 'CamphoraTech Wiki',
     to: '/',
     logo: {
       alt: '',
@@ -27,9 +27,9 @@ export default defineAppConfig({
     search: true,
     colorMode: true,
     links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt-ui-pro/docs',
-      'target': '_blank',
+      icon: 'i-simple-icons-github',
+      to: 'https://github.com/camphora-tech/wiki',
+      target: '_blank',
       'aria-label': 'GitHub'
     }]
   },
